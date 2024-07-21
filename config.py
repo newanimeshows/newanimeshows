@@ -21,11 +21,11 @@ API_HASH = os.environ.get("API_HASH", "0df4b3b4eee9baa47694411eb4317115")
 
 OWNER = os.environ.get("OWNER", "@ayan_alam") #Owner username
 OWNER_ID = int(os.environ.get("OWNER_ID", "1196934318")) #Owner user id
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://newanimeshows:newanimeshow@1+@newanimeshows.0rkax7j.mongodb.net/?retryWrites=true&w=majority&appName=newanimeshows")
+DB_NAME = os.environ.get("DB_NAME", "newanimeshows")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002169291947"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 
