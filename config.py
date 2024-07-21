@@ -14,15 +14,15 @@ from logging.handlers import RotatingFileHandler
 
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6165720229:AAElbb8k6kIlpgmxpjkhUXz4H6gUNsd7ATo")
+APP_ID = int(os.environ.get("APP_ID", "19277331"))
+API_HASH = os.environ.get("API_HASH", "0df4b3b4eee9baa47694411eb4317115")
 
 
-OWNER = os.environ.get("OWNER", "") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "")) #Owner user id
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
+OWNER = os.environ.get("OWNER", "@ayan_alam") #Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "1196934318")) #Owner user id
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://:<password>/?retryWrites=true&w=majority&appName=")
+DB_NAME = os.environ.get("DB_NAME", "newanimeshows")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
